@@ -39,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-#faded-today{
+#faded-text{
     opacity: 0.5;
 }
 
@@ -274,4 +274,41 @@ input{
     margin-left: 65px;
 }
 
+.highlight-container{
+    display: flex;
+    flex-direction: row;
+}
 
+.status-info{
+    display: flex;
+    margin-top: 250px;
+    margin-left: -280px;
+}
+
+.todays-highlights{
+    flex: 1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.up-down-placeholder-img{
+    flex: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.sunrise-set-stat{
+    display: flex;
+    flex-direction: row;
+}
+
+.other-stats{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.aligning-stats{
+    margin-left: -450px;
+}
