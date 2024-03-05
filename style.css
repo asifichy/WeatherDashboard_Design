@@ -140,3 +140,87 @@ input{
       padding: 8px 18px;
     }
 }
+
+.left-weather-conainer{
+    margin: 20px;
+    text-align: left;
+}
+
+.forecast-img-setting{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 100px yellow;
+}
+
+.monday-adjust{
+    margin-left: 5px;
+}
+
+.left-temp{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 85px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.left-temp sup{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.left-monday{
+    text-align: left;
+    padding-left: -15px;
+}
+
+.red-time{
+    color: rgb(150, 11, 11);
+}
+
+.left-cloudy{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    float: left; 
+}
+
+.left-rain{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.short-weather-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 10px;
+}
+
+.NY-img{
+    position: relative;
+    width: 180px; 
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.NY-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.NY-img p{
+    position: relative;
+    font-weight: 400;
+    color: #ddd;
+}
