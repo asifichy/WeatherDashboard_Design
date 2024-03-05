@@ -149,7 +149,7 @@ input{
 .forecast-img-setting{
     width: 200px;
     height: 200px;
-    box-shadow: 0 0 100px yellow;
+    /*box-shadow: 0 0 100px yellow;*/
 }
 
 .monday-adjust{
@@ -276,7 +276,6 @@ input{
 
 .highlight-container{
     display: flex;
-    flex-direction: row;
 }
 
 .status-info{
@@ -286,9 +285,10 @@ input{
 }
 
 .todays-highlights{
-    flex: 1;
+    /*flex: 1;*/
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    margin-left: -380px;
 }
 
 .up-down-placeholder-img{
@@ -309,6 +309,4 @@ input{
     margin-left: 20px;
 }
 
-.aligning-stats{
-    margin-left: -450px;
-}
+
