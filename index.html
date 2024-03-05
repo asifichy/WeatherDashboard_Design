@@ -18,7 +18,7 @@
                 <div class="container-topnav">
                     <div class="search-container">
                         <form action="/action_page.php">
-                            <button onclick="search_places()"><i class="fa fa-search"></i></button>
+                            <button type="submit"><i class="fa fa-search"></i></button>
                             <input type="text" placeholder="Search for places.." required>                     
                         </form>
                     </div>
@@ -27,13 +27,17 @@
                         <li><u><a href="#">Week</a></u></li>
                     </ul>
                     
-                    <ul>
-                        <li><button type="submit">&degC</button></li>
-                        <li><button type="submit">&degF</button></li>
+                    <ul>                        
+                        <li class="bold-temp">
+                            <button type="submit">&degC</button>
+                        </li>
+                        <li>
+                            <button type="submit">&degF</button>
+                        </li>                             
                     </ul>
 
-                    <ul>
-                        <li class="profile-avatar">
+                    <ul class="profile-avatar">
+                        <li>
                             <img src="icons/hacker.png" alt="icon-avatar" class="profile-avatar">
                         </li>
                     </ul>

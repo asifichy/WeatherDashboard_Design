@@ -36,6 +36,7 @@ li{
 
 a{
     color: black;
+    text-decoration: none;
 }
 
 #faded-today{
@@ -102,6 +103,23 @@ input{
 
 .profile-avatar:hover{
     cursor: pointer;
+    align-items: end;
+}
+
+.bold-temp{
+    background: transparent;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bold-temp:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 500px) {
