@@ -274,21 +274,17 @@ input{
     margin-left: 65px;
 }
 
-.highlight-container{
-    display: flex;
+.todays-highlights{
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .status-info{
     display: flex;
-    margin-top: 250px;
-    margin-left: -280px;
-}
-
-.todays-highlights{
-    /*flex: 1;*/
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: -380px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+    margin-top: 200px;
 }
 
 .up-down-placeholder-img{
@@ -302,11 +298,9 @@ input{
     flex-direction: row;
 }
 
-.other-stats{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-left: 20px;
+.stat-container{
+    position: relative;
+    display: inline-block;
+    padding-left: 40px;
 }
-
 
