@@ -13,20 +13,32 @@
     </head>
     <body>
         <!--navigating bar-->
-        <nav class="top-nav">
-            <form method="get" action="">
-                <div id="cover">
-                    <div class="tabe">
-                        <div class="table-data" id="s-cover">
-                            <button type="submit">
-                                <div id="s-circle"></div>
-                            </button>
-                            <span></span>
-                        </div>
-                        <div class="table-data"><input type="text" placeholder="Search for places..." required></div>
+        <nav>
+            <div class="topnav">
+                <div class="container-topnav">
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <button onclick="search_places()"><i class="fa fa-search"></i></button>
+                            <input type="text" placeholder="Search for places.." required>                     
+                        </form>
                     </div>
-                </div>
-            </form>
+                    <ul>
+                        <li id="faded-today"><a href="#">Today</a></li>
+                        <li><u><a href="#">Week</a></u></li>
+                    </ul>
+                    
+                    <ul>
+                        <li><button type="submit">&degC</button></li>
+                        <li><button type="submit">&degF</button></li>
+                    </ul>
+
+                    <ul>
+                        <li class="profile-avatar">
+                            <img src="icons/hacker.png" alt="icon-avatar" class="profile-avatar">
+                        </li>
+                    </ul>
+                </div>                
+            </div>
         </nav>
         <!--end of navigating bar-->
 
