@@ -46,44 +46,92 @@
         </nav>
         <!--end of navigating bar-->
 
-        <!--weather forecast left-->
-        <div class="left-weather-conainer">
-            <img class="forecast-img-setting" src="/Dashboard_Design/icons/rainy-day.png" alt="rainy-day">
-            <p class="left-temp">12<sup>&degC</sup></p>
-            <p class="monday-adjust"><b>Monday, <span class="red-time">16:00</span></b></p>
+        <div class="weather-container">
+            <!--weather forecast left-->
+            <div class="left-weather-container">
+                <div class="left-weather-conainer">
+                    <img class="forecast-img-setting" src="/Dashboard_Design/icons/rainy-day.png" alt="rainy-day">
+                    <p class="left-temp">12<sup>&degC</sup></p>
+                    <p class="monday-adjust"><b>Monday, <span class="red-time">16:00</span></b></p>
+        
+                    <div class="short-weather-info">
+                        <div class="cloudy">
+                            <img src="/Dashboard_Design/icons/cloud.png" alt="most-cloudy" class="left-cloudy">
+                            <p>Mostly Cloudy</p>
+                        </div>
+            
+                        <div class="rain-info">
+                            <img src="/Dashboard_Design/icons/water.png" alt="rain" class="left-rain">
+                            <p>Rain - 30%</p>
+                        </div>
+                    </div>
+        
+                    <div class="NY-img">
+                        <img src="/Dashboard_Design/icons/NYC-at-night-image.png" alt="ny">
+                        <p>New York, NY, USA</p>
+                    </div>            
+                </div>
+            </div>       
 
-            <div class="short-weather-info">
-                <div class="cloudy">
-                    <img src="/Dashboard_Design/icons/cloud.png" alt="most-cloudy" class="left-cloudy">
-                    <p>Mostly Cloudy</p>
+            <!--weather forecast left end-->
+
+            <!--weather forecast right-->
+            <div class="right-weather-container">
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Sun</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/sun.png" alt="sun">
+                            <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">3&deg</span></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Mon</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/rainy-day.png" alt="mon">
+                            <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">7&deg</span></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Tue</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/less-rain.png" alt="tue">
+                            <p class="small-text-for-upper-right">9&deg- <span class="faded-temps">7&deg</span></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Wed</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/heavy-rain.png" alt="wed">
+                            <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">31&deg</span></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Thu</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/wind.png" alt="thu">
+                            <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">31&deg</span></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Fri</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/sunny.png" alt="fri">
+                            <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">31&deg</span></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <p><b>Sat</b></p>
+                            <img class="highlight-img" src="/Dashboard_Design/icons/sun.png" alt="sat">
+                            <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">31&deg</span></p>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="rain-info">
-                    <img src="/Dashboard_Design/icons/water.png" alt="rain" class="left-rain">
-                    <p>Rain - 30%</p>
-                </div>
+
             </div>
-
-            <div class="NY-img">
-                <img src="/Dashboard_Design/icons/NYC-at-night-image.png" alt="ny">
-                <p>New York, NY, USA</p>
-            </div>            
-        </div>       
-
-        <!--weather forecast left end-->
-
-        <!--weather forecast right-->
-        <div class="right-side-info">
-            <div class="row">
-                <div class="card">
-                    <p><b>Sun</b></p>
-                    <img class="highlight-img" src="/Dashboard_Design/icons/sun.png" alt="sun">
-                    <p class="small-text-for-upper-right">15&deg- <span class="faded-temps">3&deg</span></p>
-                </div>
-            </div>
-
+            <!--weather forecast right end-->
         </div>
 
-        <!--weather forecast right end-->
     </body>
 </html>

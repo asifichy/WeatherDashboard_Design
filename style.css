@@ -225,11 +225,6 @@ input{
     color: #ddd;
 }
 
-.right-side-info{
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .faded-temps{
     opacity: 0.5;
 }
@@ -240,6 +235,12 @@ input{
 
 .row{
     margin: 0 -5px;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 0 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -258,3 +259,19 @@ input{
 .highlight-img{
     width: 50px;
 }
+
+.weather-container{
+    display: flex;
+}
+
+.left-weather-conainer{
+    flex: 1;
+    margin-right: 35px;
+}
+
+.right-weather-container{
+    flex: 1;
+    margin-left: 65px;
+}
+
+
