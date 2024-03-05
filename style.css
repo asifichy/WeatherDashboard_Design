@@ -280,17 +280,42 @@ input{
 }
 
 .status-info{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    flex-direction: column;
     margin-top: 200px;
 }
 
+.stat-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    align-content: space-between;
+}
+
+.stat-info{
+    margin-top: 50px;
+    margin-left: -60px;
+}
+
 .up-down-placeholder-img{
-    flex: 1;
     width: 30px;
     height: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.wind-stat, .quality-stat{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -8px;
+    margin-bottom: -6px;
+}
+
+sub{
+    font-size: 20px;
+}
+
+#spacing-stat{
+    padding-left: 10em;
 }
 
 .sunrise-set-stat{
@@ -298,9 +323,13 @@ input{
     flex-direction: row;
 }
 
-.stat-container{
-    position: relative;
-    display: inline-block;
-    padding-left: 40px;
+.change-time{
+    font-size: 11.5px;
+    padding-left: 37px;
+}
+
+.last-stat-row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
